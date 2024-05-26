@@ -401,7 +401,7 @@
     flex-wrap: wrap;
   }
   .navigation {
-    padding-left: 128px;
+    padding-left: var(--padding-109xl);
     box-sizing: border-box;
   }
   .navigation,

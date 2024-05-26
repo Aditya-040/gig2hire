@@ -82,7 +82,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 130px 0 0;
+  padding: 0 var(--padding-111xl) 0 0;
   gap: var(--gap-5xs);
 }
 .btnCheck1 {

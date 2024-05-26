@@ -459,7 +459,7 @@
 .date {
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0 0 0 364px;
+  padding: 0 0 0 var(--padding-345xl);
   min-width: 695.5px;
   font-size: var(--font-size-21xl);
   color: var(--light);
@@ -1174,7 +1174,8 @@
   overflow: hidden;
   flex-direction: row;
   justify-content: space-between;
-  padding: var(--padding-5xs) var(--padding-sm) var(--padding-5xs) 43px;
+  padding: var(--padding-5xs) var(--padding-sm) var(--padding-5xs)
+    var(--padding-24xl);
   gap: var(--gap-xl);
   z-index: 3;
 }
@@ -3099,7 +3100,7 @@
     min-width: 100%;
   }
   .date {
-    padding-left: 182px;
+    padding-left: var(--padding-163xl);
     box-sizing: border-box;
   }
   .activeJobsMetric,
