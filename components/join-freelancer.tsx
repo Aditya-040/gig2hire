@@ -113,7 +113,7 @@ const JoinFreelancer: NextPage<JoinFreelancerType> = ({ className = "" }) => {
               <img
                 className={styles.gig2hire1Icon}
                 alt=""
-                src="/gig2hire-11.svg"
+                src="/gig2hire-111.svg"
               />
               <b className={styles.getStarted}>Find GiGs</b>
             </button>

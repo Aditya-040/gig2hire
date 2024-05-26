@@ -12,7 +12,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
         className={styles.gig2hire1Icon}
         loading="lazy"
         alt=""
-        src="/gig2hire-1.svg"
+        src="/gig2hire-11.svg"
       />
       <div className={styles.footerCopyright}>
         <div className={styles.gig2hireAllRights}>

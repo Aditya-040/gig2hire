@@ -45,7 +45,7 @@ const NavbarSpacer: NextPage<NavbarSpacerType> = ({ className = "" }) => {
             <img className={styles.groupIcon4} alt="" src="/group-4.svg" />
           </div>
           <div className={styles.vectorWrapper}>
-            <img className={styles.vectorIcon3} alt="" src="/vector-3.svg" />
+            <img className={styles.vectorIcon3} alt="" src="/vector-31.svg" />
           </div>
         </div>
         <div className={styles.menuParent}>

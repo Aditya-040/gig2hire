@@ -31,9 +31,9 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               q1="Q2"
               checkSmall="/check-small-1.svg"
               proofOfTechnology="Landing page redesign."
-              checkSmall1="/more-horiz.svg"
+              checkSmall1="/more-horiz1.svg"
               ideaValidation="Early bird interest."
-              checkSmall2="/more-horiz.svg"
+              checkSmall2="/more-horiz1.svg"
               proofOfConceptV1="Yellow paper release."
               propBackgroundColor="#d6ea5e"
               propMinWidth="44px"
@@ -47,11 +47,11 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
             />
             <FrameComponent2
               q1="Q3"
-              checkSmall="/more-horiz.svg"
+              checkSmall="/more-horiz1.svg"
               proofOfTechnology="Beta release."
-              checkSmall1="/more-horiz.svg"
+              checkSmall1="/more-horiz1.svg"
               ideaValidation="White paper release."
-              checkSmall2="/more-horiz.svg"
+              checkSmall2="/more-horiz1.svg"
               proofOfConceptV1="Security audit."
               propBackgroundColor="#3f5dba"
               propMinWidth="44px"
@@ -73,7 +73,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                     <img
                       className={styles.moreHorizIcon}
                       alt=""
-                      src="/more-horiz.svg"
+                      src="/more-horiz1.svg"
                     />
                   </div>
                   <div className={styles.closedBetaRelease}>
@@ -85,7 +85,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                     <img
                       className={styles.moreHorizIcon1}
                       alt=""
-                      src="/more-horiz.svg"
+                      src="/more-horiz1.svg"
                     />
                   </div>
                   <div className={styles.amasSeries}>AMA’s series.</div>
@@ -95,7 +95,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                     <img
                       className={styles.moreHorizIcon2}
                       alt=""
-                      src="/more-horiz.svg"
+                      src="/more-horiz1.svg"
                     />
                   </div>
                   <div className={styles.educationalInstitutionsEngagContainer}>
@@ -124,7 +124,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                       <img
                         className={styles.moreHorizIcon3}
                         alt=""
-                        src="/more-horiz.svg"
+                        src="/more-horiz1.svg"
                       />
                     </div>
                     <div className={styles.partnershipsWithTop}>
@@ -136,7 +136,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                       <img
                         className={styles.moreHorizIcon4}
                         alt=""
-                        src="/more-horiz.svg"
+                        src="/more-horiz1.svg"
                       />
                     </div>
                     <div className={styles.first1000UsersContainer}>
@@ -151,7 +151,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
                       <img
                         className={styles.moreHorizIcon5}
                         alt=""
-                        src="/more-horiz.svg"
+                        src="/more-horiz1.svg"
                       />
                     </div>
                     <div className={styles.workGamifiedRelease}>
@@ -162,11 +162,11 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               </div>
               <FrameComponent2
                 q1="Q2"
-                checkSmall="/more-horiz.svg"
+                checkSmall="/more-horiz1.svg"
                 proofOfTechnology="Partnerships with topfreelance employers."
-                checkSmall1="/more-horiz.svg"
+                checkSmall1="/more-horiz1.svg"
                 ideaValidation="AI work companion."
-                checkSmall2="/more-horiz.svg"
+                checkSmall2="/more-horiz1.svg"
                 proofOfConceptV1="Tokenomics release."
                 propBackgroundColor="#3f5dba"
                 propMinWidth="44px"
@@ -180,11 +180,11 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               />
               <FrameComponent2
                 q1="Q3"
-                checkSmall="/more-horiz.svg"
+                checkSmall="/more-horiz1.svg"
                 proofOfTechnology="Mobile version."
-                checkSmall1="/more-horiz.svg"
+                checkSmall1="/more-horiz1.svg"
                 ideaValidation="Partnerships with tech companies."
-                checkSmall2="/more-horiz.svg"
+                checkSmall2="/more-horiz1.svg"
                 proofOfConceptV1="GIG2Hire v2 release."
                 propBackgroundColor="#3f5dba"
                 propMinWidth="44px"
@@ -198,11 +198,11 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({ className = "" }) => {
               />
               <FrameComponent2
                 q1="Q4"
-                checkSmall="/more-horiz.svg"
+                checkSmall="/more-horiz1.svg"
                 proofOfTechnology="First 10.000 users onboard."
-                checkSmall1="/more-horiz.svg"
+                checkSmall1="/more-horiz1.svg"
                 ideaValidation="G-Learn release."
-                checkSmall2="/more-horiz.svg"
+                checkSmall2="/more-horiz1.svg"
                 proofOfConceptV1="Top-G funds release."
                 propBackgroundColor="#3f5dba"
                 propMinWidth="44px"

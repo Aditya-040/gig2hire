@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
-import NavbarSpacer from "../components/navbar-spacer";
+import NavbarSpacer from "../components/navbar-spacer1";
 import JobCategories from "../components/job-categories";
-import Footer from "../components/footer";
+import Footer from "../components/footer1";
 import styles from "./job-marketplace.module.css";
 
 const JobMarketplace: NextPageJobMarketplaceType = () => {

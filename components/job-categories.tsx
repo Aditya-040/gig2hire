@@ -246,7 +246,7 @@ const JobCategories: NextPage<JobCategoriesType> = ({ className = "" }) => {
             </div>
             <div className={styles.frameParent4}>
               <div className={styles.timerParent}>
-                <img className={styles.timerIcon} alt="" src="/timer.svg" />
+                <img className={styles.timerIcon} alt="" src="/timer1.svg" />
                 <div className={styles.timeLeftToApplyParent}>
                   <div className={styles.timeLeftTo}>Time Left to Apply</div>
                   <div className={styles.d21h58m23s}>

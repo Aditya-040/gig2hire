@@ -167,7 +167,7 @@ const CompJoboffer: NextPage<CompJobofferType> = ({ className = "" }) => {
         </div>
         <div className={styles.jobListingApplicationTimer}>
           <div className={styles.jobListingApplicationTimeL}>
-            <img className={styles.timerIcon} alt="" src="/timer.svg" />
+            <img className={styles.timerIcon} alt="" src="/timer1.svg" />
             <div className={styles.jobListingApplicationTimeL1}>
               <div className={styles.timeLeftTo}>Time Left to Apply</div>
               <div className={styles.d21h58m23s}>
