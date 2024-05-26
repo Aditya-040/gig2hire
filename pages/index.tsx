@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import NavbarSpacer from "../components/navbar-spacer";
 import FrameComponent9 from "../components/frame-component9";
 import FrameComponent7 from "../components/frame-component7";

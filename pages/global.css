@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;700&display=swap");
 body {
   margin: 0;
   line-height: normal;
@@ -8,6 +9,7 @@ body {
   /* fonts */
   --font-space-mono: "Space Mono";
   --font-unbounded: Unbounded;
+  --font-hanken-grotesk: "Hanken Grotesk";
 
   /* font sizes */
   --font-size-base: 16px;
@@ -23,12 +25,16 @@ body {
   --font-size-xs: 12px;
   --font-size-61xl: 80px;
   --font-size-21xl: 40px;
+  --font-size-3xs: 10px;
+  --font-size-5xs: 8px;
+  --font-size-7xs: 6px;
 
   /* Colors */
   --light: #fffcf0;
   --navy-bk: #6e83ff;
   --color-royalblue-100: #5469e6;
   --navy-medium-bk: #3f5dba;
+  --navy-bk-40a: rgba(110, 131, 255, 0.4);
   --navy-medium-40a: rgba(63, 93, 186, 0.4);
   --yellow-bk: #d6ea5e;
   --green-medium: #9ce860;
@@ -39,6 +45,12 @@ body {
   --color-cornflowerblue-100: #6685e0;
   --color-cornflowerblue-200: rgba(102, 133, 224, 0.09);
   --color-white: #fff;
+  --navy-bold: #3552ab;
+  --midnight-medium: #333f65;
+  --red-light: #f87a7a;
+  --mint-100: #f8fff4;
+  --dark-800: #0c0f0a;
+  --dark-800-30: rgba(12, 15, 10, 0.3);
 
   /* Gaps */
   --gap-29xl: 48px;
@@ -73,6 +85,9 @@ body {
   --gap-3xl: 22px;
   --gap-26xl: 45px;
   --gap-7xs-3: 5.3px;
+  --gap-3xs: 10px;
+  --gap-4xl: 23px;
+  --gap-xs: 12px;
 
   /* Paddings */
   --padding-base: 16px;
@@ -114,7 +129,20 @@ body {
   --padding-11xs: 2px;
   --padding-45xl: 64px;
   --padding-3xs-5: 9.5px;
+  --padding-15xl: 34px;
+  --padding-33xl: 52px;
+  --padding-29xl: 48px;
+  --padding-2xs: 11px;
+  --padding-66xl: 85px;
+  --padding-125xl: 144px;
+  --padding-76xl: 95px;
+  --padding-10xs-5: 2.5px;
+  --padding-12xs-5: 0.5px;
+  --padding-12xs: 1px;
+  --padding-2xs-5: 10.5px;
+  --padding-8xl: 27px;
 
   /* Border radiuses */
   --br-81xl: 100px;
+  --br-5xs: 8px;
 }
