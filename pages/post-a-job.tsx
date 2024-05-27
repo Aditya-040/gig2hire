@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
 import HeaderSpacer from "../components/header-spacer";
-import FrameComponent from "../components/frame-component";
-import Footer from "../components/footer";
 import styles from "./post-a-job.module.css";
 
 const PostAJob: NextPagePostAJobType = () => {
@@ -42,7 +40,7 @@ const PostAJob: NextPagePostAJobType = () => {
                 <div className={styles.titleExample}>
                   <b className={styles.exampleTitles}>Example titles:</b>
                   <p className={styles.buildAResponsiveContainer}>
-                    <ul className={styles.buildAResponsiveDappToTra}>
+                    <div className={styles.buildAResponsiveDappToTra}>
                       <li className={styles.buildAResponsive}>
                         Build a responsive dApp to trade Pokemonsta cards.
                       </li>
@@ -50,7 +48,7 @@ const PostAJob: NextPagePostAJobType = () => {
                         Design an UI for a cooking social media.
                       </li>
                       <li>Create a video ad for YouClip Shorts.</li>
-                    </ul>
+                    </div>
                   </p>
                 </div>
               </div>
@@ -523,33 +521,67 @@ const PostAJob: NextPagePostAJobType = () => {
                     <b className={styles.tasks}>10 Tasks</b>
                   </div>
                   <div className={styles.tasksCheckboxes}>
-                    <FrameComponent
-                      includeGraphicsOnThePNLs="Include graphics on the PNLs"
-                      yellowAndBlackForTheUI="Yellow and Black for the UI"
-                      hamstersAnimations="Hamsters animations"
-                      includeHistoricalSwaps="Include historical swaps"
-                    />
-                    <FrameComponent
-                      includeGraphicsOnThePNLs="Include socials section"
-                      yellowAndBlackForTheUI="Include coin tracker"
-                      hamstersAnimations="Add conversion rate to pounds"
-                      includeHistoricalSwaps="Make it responsive"
-                      propMinWidth="277px"
-                      propColor="#061543"
-                      propColor1="#061543"
-                      propColor2="#061543"
-                      propColor3="#061543"
-                      propTextDecoration="unset"
-                    />
                     <div className={styles.frameGroup}>
                       <div className={styles.btnCheckParent}>
                         <input className={styles.btnCheck} type="checkbox" />
-                        <div className={styles.addSwapSection}>
-                          Add Swap section
+                        <div className={styles.includeGraphicsOn}>
+                          Include graphics on the PNLs
                         </div>
                       </div>
                       <div className={styles.btnCheckGroup}>
                         <input className={styles.btnCheck1} type="checkbox" />
+                        <div className={styles.yellowAndBlack}>
+                          Yellow and Black for the UI
+                        </div>
+                      </div>
+                      <div className={styles.btnCheckContainer}>
+                        <input className={styles.btnCheck2} type="checkbox" />
+                        <div className={styles.hamstersAnimations}>
+                          Hamsters animations
+                        </div>
+                      </div>
+                      <div className={styles.frameDiv}>
+                        <input className={styles.btnCheck3} type="checkbox" />
+                        <div className={styles.includeHistoricalSwaps}>
+                          Include historical swaps
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.frameContainer}>
+                      <div className={styles.btnCheckParent1}>
+                        <input className={styles.btnCheck4} type="checkbox" />
+                        <div className={styles.includeSocialsSection}>
+                          Include socials section
+                        </div>
+                      </div>
+                      <div className={styles.btnCheckParent2}>
+                        <input className={styles.btnCheck5} type="checkbox" />
+                        <div className={styles.includeCoinTracker}>
+                          Include coin tracker
+                        </div>
+                      </div>
+                      <div className={styles.btnCheckParent3}>
+                        <input className={styles.btnCheck6} type="checkbox" />
+                        <div className={styles.addConversionRate}>
+                          Add conversion rate to pounds
+                        </div>
+                      </div>
+                      <div className={styles.btnCheckParent4}>
+                        <input className={styles.btnCheck7} type="checkbox" />
+                        <div className={styles.makeItResponsive}>
+                          Make it responsive
+                        </div>
+                      </div>
+                    </div>
+                    <div className={styles.frameParent1}>
+                      <div className={styles.btnCheckParent5}>
+                        <input className={styles.btnCheck8} type="checkbox" />
+                        <div className={styles.addSwapSection}>
+                          Add Swap section
+                        </div>
+                      </div>
+                      <div className={styles.btnCheckParent6}>
+                        <input className={styles.btnCheck9} type="checkbox" />
                         <div className={styles.addBridgeSection}>
                           Add Bridge section
                         </div>
@@ -628,7 +660,32 @@ const PostAJob: NextPagePostAJobType = () => {
           </div>
         </section>
       </main>
-      <Footer />
+      <footer className={styles.footer}>
+        <img
+          className={styles.gig2hire1Icon}
+          loading="lazy"
+          alt=""
+          src="/gig2hire-11.svg"
+        />
+        <div className={styles.copyright}>
+          <div className={styles.gig2hireAllRights}>
+            © 2024 Gig2Hire. All Rights reserved.
+          </div>
+        </div>
+        <div className={styles.socialMediaLinks}>
+          <div className={styles.socialMedia}>
+            <img className={styles.vectorIcon} alt="" src="/vector-7.svg" />
+          </div>
+        </div>
+        <div className={styles.socialMedia1}>
+          <img
+            className={styles.vectorIcon1}
+            loading="lazy"
+            alt=""
+            src="/vector-8.svg"
+          />
+        </div>
+      </footer>
     </div>
   );
 };
